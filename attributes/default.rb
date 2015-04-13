@@ -27,7 +27,7 @@ default['openstack']['object-storage']['user'] = 'swift'
 # Default swift group
 default['openstack']['object-storage']['group'] = 'swift'
 
-default['openstack']['compute']['region'] = node['openstack']['region']
+default['openstack']['object-storage']['region'] = node['openstack']['region']
 
 # Set to some text value if you want templated config files
 # to contain a custom banner at the top of the written file
